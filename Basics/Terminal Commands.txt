@@ -1,0 +1,14 @@
+Here is the list of main terminal commands which we'll be using over and over during this course:
+1. To change directory
+cd  --> move to home directory
+cd ../ --> move a dir back
+cd <DIR NAME>  ->> to change dir
+
+2. Create a new directory
+mkdir <DIR NAME>
+
+3. cat filename.extension  --> read the content of file.
+
+4. clear --> clear the terminal
+
+5. pwd  ->> present working directory
