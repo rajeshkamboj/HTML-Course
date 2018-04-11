@@ -1,0 +1,2 @@
+1. Go to your GitHub.Com profile and add a repo with same name as your local repo you're working on.
+2. You'll get the rest of command instructions here and once you execute them your local and remote repos will be in sync.
