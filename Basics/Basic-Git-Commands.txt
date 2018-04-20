@@ -2,4 +2,5 @@
 2. git status
 3. git add --all -->> to add all changes in staging
 4. git commit -m "first commit"  -> commit with a message
-5. git log  --> to get the present status of your repo
+5. git push -->> to execute the changes remotely
+6. git log  --> to get the present status of your repo
