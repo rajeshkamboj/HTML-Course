@@ -1,0 +1,43 @@
+/*img {*/
+    /*border: groove solid 10px;*/
+    /*border-radius: 20px;*/
+/*}*/
+
+#block {
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    display: block;
+    border: red 5px solid;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+
+#inline {
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    display: inline;
+    border: blue 5px solid;
+    margin-right: 10px;
+}
+
+#inline-block {
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    display: inline-block;
+    border: green 5px solid;
+}
+
+#none {
+    display: none;
+}
+
+.padding {
+    padding: 50px;
+    margin: 30px;
+    border: red 5px solid;
+    display: block;
+}
