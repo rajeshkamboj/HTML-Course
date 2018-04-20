@@ -4,12 +4,13 @@
 /*}*/
 
 div {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
     background-image: url("http://www.smailikai.com/avatar/skelet/avatar_4348.gif");
     margin: 20px 20px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img1 {
