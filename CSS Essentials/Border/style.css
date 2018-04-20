@@ -1,0 +1,29 @@
+/*img {*/
+    /*border: groove solid 10px;*/
+    /*border-radius: 20px;*/
+/*}*/
+
+div {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url("http://www.smailikai.com/avatar/skelet/avatar_4348.gif");
+    margin: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    border: red 20px groove;
+}
+
+.img2 {
+    border: red 10px dotted;
+}
+
+.img3 {
+    border: red 20px double;
+}
+
+.img4 {
+    border: red 10px inset;
+}
