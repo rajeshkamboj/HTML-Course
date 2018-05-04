@@ -1,0 +1,24 @@
+/*All p tags within a div*/
+
+/*div p {*/
+    /*color:red;*/
+/*}*/
+
+/*All p tags immediately after a div*/
+
+/*div > p {*/
+    /*color:red;*/
+/*}*/
+
+/*All p tags following a div*/
+
+
+div ~ p {
+    color: red;
+}
+
+/*All p tags immediate siblings following a div*/
+
+/*div + p {*/
+    /*color: red;*/
+/*}*/

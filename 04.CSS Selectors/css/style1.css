@@ -1,0 +1,30 @@
+body {
+    border: 5px solid black;
+    padding: 20px;
+}
+
+a {
+    font-family: "Open Sans";
+    color:red;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color:green;
+}
+
+a:active {
+    color:yellow;
+}
+
+a:visited {
+    color:blue;
+}
+
+/*You can check the difference turning below code on and off */
+
+/*a:focus {*/
+    /*color:white;*/
+/*}*/

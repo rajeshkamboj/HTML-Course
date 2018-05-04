@@ -1,0 +1,7 @@
+div {
+    margin:5%;
+}
+
+article:only-child{
+    color: #136de9;
+}
