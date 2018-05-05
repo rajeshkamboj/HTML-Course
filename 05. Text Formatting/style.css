@@ -1,0 +1,28 @@
+.rootem {
+  font-size: 2rem;
+  color:#808080;
+  font-weight: normal;
+}
+
+.viewport-width {
+  font-size: 3vw;
+  color:blue;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/* CSS Specificity or priority ID>Class>Element
+We can count them as numbers 100 for ID 10 for class and 1 for elements*/
+
+#emsize {
+  font-size: 6em;
+  color:green;
+  font-family: serif;
+  font-weight: 900;
+}
+
+/* When 2 classes are applied to same element, class declared at the bottom is given priority */
+
+/* What is difference between serif and sans serif?
+serif family of fonts have boots while sans fonts are plane
+*/
