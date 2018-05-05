@@ -1,7 +1,15 @@
+div {
+  border: 5px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
 .rootem {
   font-size: 2rem;
   color:#808080;
   font-weight: normal;
+  font-variant: small-caps; /*Interesting one*/
+  text-transform: capitalize;
 }
 
 .viewport-width {
@@ -15,10 +23,19 @@
 We can count them as numbers 100 for ID 10 for class and 1 for elements*/
 
 #emsize {
-  font-size: 6em;
+  font-size: 3em;
   color:green;
-  font-family: serif;
+  font-family: Arial;
   font-weight: 900;
+  font-style: italic;
+}
+
+.emsize {
+  font-size: 3em;
+  color:green;
+  font-family: "Open Sans" sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 /* When 2 classes are applied to same element, class declared at the bottom is given priority */
@@ -26,3 +43,28 @@ We can count them as numbers 100 for ID 10 for class and 1 for elements*/
 /* What is difference between serif and sans serif?
 serif family of fonts have boots while sans fonts are plane
 */
+
+.align {
+  text-align: center;
+  font-size: 128px;
+  text-shadow: 1px 2px 2px blue;
+  text-decoration: overline;
+}
+
+/* Here div is block level element and p is inline element. So basically text-align will align every inline elment to center in its block level element. */
+
+/* Text-shadow accepts values as "x,y,blur radius,color" */
+
+.indent {
+  text-indent: 300px; /* Look at the spacing of para from left */
+  font-size: 3rem;
+  line-height: 5rem;
+  letter-spacing: 5px;
+}
+
+.indent p::first-letter {
+  color: red;
+  font-size: 5rem;
+}
+
+/*Changing first letter with declared values of P tag under indent class */
