@@ -4,6 +4,12 @@ div {
   margin: 10px;
 }
 
+figure {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .rootem {
   font-size: 2rem;
   color:#808080;
