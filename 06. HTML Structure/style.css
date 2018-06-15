@@ -1,0 +1,13 @@
+figure {
+    border: aqua 2px solid;
+}
+
+figcaption {
+    border: red 2px dot-dash;
+}
+
+ul > li {
+    display: inline;
+    padding: 10px;
+    border: black 2px solid;
+}

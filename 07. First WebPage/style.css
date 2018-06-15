@@ -1,0 +1,26 @@
+html{
+    background-color: #008000;
+}
+body {
+    width:70%;
+    max-width: 800px;
+    border: solid black 10px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #808080;
+}
+
+img {
+    border-radius:100%;
+    border: 20px red groove;
+    display: block;
+    margin: 0 auto;
+}
+
+#immaeyed1{
+    color:red;
+}
+
+#immaeyed2{
+    color:pink;
+}
